@@ -3,8 +3,8 @@ import React from 'react'
 function navbar() {
   return (
     <>
-    <div>
-    <div className="navbar bg-base-100">
+      <div>
+      <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,7 +43,7 @@ function navbar() {
     <a className="btn">Button</a>
   </div>
 </div>
-        </div>
+      </div>
     </>
   )
 }
